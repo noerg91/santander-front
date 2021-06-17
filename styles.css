@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(69, 69, 219);
+    color: rgb(71, 214, 102);
 }
 
 h2 {
@@ -12,9 +12,61 @@ p {
 
 button {
     color: #fff;
-    background-color: indigo;
+    background-color: rgb(132, 131, 133);
 }
 
 body {
-    background-color: rgb(241, 160, 160);
+    background-color: rgb(207, 248, 205);
+    background-image: url(https://www.color-hex.com/palettes/104745.png);
+    width: 100%;
+    
+}
+
+.header {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0%;
+    line-height: 45px;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo {
+    width: 15%;
+}
+
+li {
+    display: inline;
+    margin: 15px;
+    color: #025157;
+}
+.navbar {
+    width: 70%;
+    line-height: 45px;
+    text-align: center;
+    color: #46484c;
+    font-family: sans-serif;
+}
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+.signIn {
+    margin: 0 10px 0 10px;
+    color: #67b54b;
+}
+.start {
+    margin: 0 10px 0 10px;
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
 }
