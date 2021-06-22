@@ -70,3 +70,58 @@ li {
     padding: 12px 14px 12px 14px;
     border-radius: 5px;
 }
+
+.titleForm {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article > * {
+    color: #025157;
+} 
+
+.parrafo {
+    color: #6e9ba8;
+}
+
+.startTrail {
+    margin: 0 10px 0 0;
+    color: rgb(255, 255, 255);
+    background-color: #1e173d;
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
+}
+
+.inputEmail {
+    margin: 0 0 0 10px;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto ;
+    align-items: center;
+}
+
+.columnVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columnVideo img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+  .fixed-header {
+      position: fixed;
+      background-color: rgb(128, 236, 160);
+      top: 0;
+      left: 0;
+      right: 0;
+
+  }
