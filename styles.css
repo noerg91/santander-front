@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-    margin-top: 60px;
+    margin-top: 5px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 0%;
@@ -222,4 +222,75 @@ float: left;
     font-weight: 600;
     padding: 12px 20px;
     width: 100%;
+}
+
+.features {
+    display: grid;
+    /*grid-template-columns: 100px 300px;*/
+    /*grid-template-columns: repeat(3, 1fr);+/
+    /*grid-template-columns: 500px 1fr*/;
+
+    /*RETO 3.1*/
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 330px);
+
+    /*RETO 3.2*/
+    grid-template: repeat(2, 1fr);
+}
+.feature-art {
+    background-color: rgb(175, 175, 224);
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+}
+
+.topics {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+}
+.topics-art {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 95%;
+    height: 91%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.littleLogo {
+    width: 50px;
+    margin: 20px 0 20px 20px;
+}
+
+.topics-art > h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.topics-art > p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+    width: 45%;
+    margin-left: 20px;
+}
+
+.links {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.topics-art > .photos {
+    width: 40%;
+    position: relative;
+    right: -120px;
+    top: -230px;
+    height: 70%;
 }
