@@ -48,27 +48,31 @@ li {
     color: #025157;
 }
 .navbar {
-    width: 70%;
+    width: 65%;
     line-height: 45px;
     text-align: center;
     color: #46484c;
     font-family: sans-serif;
 }
 .actions {
-    width: 15%;
     text-align: right;
+    font-weight: 600;
     font-size: 14px;
 }
 .signIn {
     margin: 0 10px 0 10px;
     color: #67b54b;
+    text-decoration: none;
+    font-size: 18px;
 }
+
 .start {
     margin: 0 10px 0 10px;
     color: white;
     background-color: #67b54b;
     padding: 12px 14px 12px 14px;
     border-radius: 5px;
+    border: none;
 }
 
 .titleForm {
@@ -124,6 +128,7 @@ article > * {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .overview h1 {
@@ -172,7 +177,6 @@ float: left;
     align-items: center;
     border-radius: 10px;
     padding: 1px;
-
 }
 
 .stories img {
@@ -276,7 +280,7 @@ float: left;
     font-size: 16px;
     color: #7e7e7e;
     font-weight: 400;
-    width: 45%;
+    width: 43%;
     margin-left: 20px;
 }
 
@@ -290,7 +294,127 @@ float: left;
 .topics-art > .photos {
     width: 40%;
     position: relative;
-    right: -120px;
+    right: -280px;
     top: -230px;
     height: 70%;
 }
+
+.titleSection{
+    background-color: #fffbf7;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.titleSection > h2 {
+    color: #025157;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: "Alegreya", serif;
+    margin-bottom: 8px;
+  }
+
+  .titleSection > p {
+    max-width: 40%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .simpleF {
+    color: #67b54b;
+    text-decoration: none;
+  }
+
+  .titleSection button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 12px 12px 12px;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
+    background-color: #025157;
+    color: #fff;
+    border: none;
+  }
+
+.columns {
+    display: grid;
+    padding: 5% 10%;
+    grid-gap: 10px;
+    color: #444;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 580px;
+    margin-bottom: 50px;
+  }
+
+  .box-art {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 150%;
+    border: 1px solid #dadada;
+    border-bottom: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    position: relative;
+    height: 300px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+  }
+
+  .description {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #dadada;
+    border-top: none;
+  }
+
+  .description >h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .description p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 16px;
+  }
+
+  .description a {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: #a1d683;
+    padding: 5% 10% 2%;
+    border-bottom: 0;
+    width: auto;
+  }
