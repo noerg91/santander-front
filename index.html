@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body class="backGround">
 
     <section class="fixed-header">
         <header class="header">
@@ -36,7 +36,7 @@
         </header>
     </section>
 
-    <h1> Mi primer etiqueta </h1>
+    <h1 class="pageTitle"> Mi primer etiqueta </h1>
     <h2> Mi primer etiqueta </h2>
     <h3> Mi primer etiqueta </h3>
     <h4> Mi primer etiqueta </h4>
@@ -48,18 +48,21 @@
         <b>Este es un párrafo en negritas</b>
     </p>
 
-
+    <article class="publish">
     <h2>FORMULARIO</h2>
-    <form action="">
-        <p> Nombre <input type="text" placeholder="Nombre" required></p>
-        <p> Apellido <input type="text" placeholder="Apellido" required></p>
-        <p> Edad <input type="number" name="Edad" min="18" max="40" placeholder="Edad" required></p>
-        <p> Fecha de Nacimiento <input type="date" name="fechaNac" required></p>
-        <p> Email <input type="email" placeholder="email" required></p>
-        <p> Contraseña <input type="password" placeholder="Contraseña" required></p>
-        <button type="submit">Enviar &rarr;</button> <button type="reset" required>Limpiar</button><br>
-        <img src="img/capterra.png" alt="logo">
-    </form>
+        <form action="">
+            <div>
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellido" required>
+                <input type="number" name="Edad" min="18" max="40" placeholder="Edad" required>
+                <input type="date" name="fechaNac" required>
+                <input type="email" placeholder="email" required>
+                <input type="password" placeholder="Contraseña" required><br>
+                <button type="submit">Enviar &rarr;</button> <button type="reset" required>Limpiar</button><br>
+                <img src="img/capterra.png" alt="logo" class="banner">
+            </div>
+        </form>
+    </article>
 
     <section class="promo">
         <article class="columnVideo">
@@ -104,7 +107,7 @@
             <img class="logos" src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" alt="logos">
         </article>
         <article class="stories">
-            <img src="https://getmatcha.com/wp-content/uploads/2019/08/0.jpg" alt="photo storie">
+            <img src="https://getmatcha.com/wp-content/uploads/2019/08/0.jpg" alt="photo storie" class="photoStorie">
             <div>
                 <h4 class="storieTitle">Sea to Summit</h4>
                 <h3 class="storieContent">Sea to Summit’s Ecommerce Site Traffic Climbs 189%, New Subscribers 820%</h3>
