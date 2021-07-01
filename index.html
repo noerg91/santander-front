@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="backGround">
 
-    <section class="fixed-header">
+    <!--<section class="fixed-header">
         <header class="header">
             <a href="/matcha/index.html" class="logo">
                 <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo Matcha">
             </a>
-    
+
             <nav class="navbar">
                 <ul>
                     <li>Products</li>
@@ -34,7 +36,93 @@
             </div>
     
         </header>
-    </section>
+    </section>-->
+
+    <!-- Navegador de Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
+            alt="Matcha"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Platform</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a>Sign In</a>
+            <button>Start free trial</button>
+          </form>
+        </div>
+      </nav>
+
+    <!-- Carousel de Bootstrap -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://amigainformatics.com/wp-content/uploads/2019/09/Web-mobile-development-banner-06.jpg" class="d-block w-100" alt="Developers Image">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.clariwell.in/resources/best-web-development-course-top-training-institute-in-pune.webp" class="d-block w-100" alt="Computes Image">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.clariwell.in/resources/best-web-development-course-top-training-institute-in-pune.webp" class="d-block w-100" alt="BEDU Logo">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Botones Collapse Bootstrap -->
+        <p>
+            <button class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Front-end
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.
+            </div>
+          </div>
+
 
     <h1 class="pageTitle"> Mi primer etiqueta </h1>
     <h2> Mi primer etiqueta </h2>
@@ -123,12 +211,24 @@
 
     </section>
 
-    <section class="features">
-        <article class="feature-art">Característica 1</article>
-        <article class="feature-art">Característica 2</article>
-        <article class="feature-art">Característica 3</article>
-        <article class="feature-art">Característica 4</article>
-    </section>
+<!-- Cards de Bootstrap -->
+    <div class="card" style="width: 18rem;">
+        <img src="https://getmatcha.com/wp-content/uploads/2019/06/arnel-hasanovic-MNd-Rka1o0Q-1049x699.jpg" class="card-img-top" alt="Desktop">
+        <div class="card-body">
+            <h5 class="card-title">Ecommerce Blogging: The 2020 Guide for Online Stores and DTC Brands</h5>
+            <p class="card-text">Table of ContentsWhy Ecommerce Businesses Need a Blog in 2020Document Your Ecommerce Blog StrategyPublication.</p>
+            <a href="#" class="btn btn-primary">Go</a>
+        </div>
+    </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://getmatcha.com/wp-content/uploads/2019/03/david-marcu-114194-1052x699.jpg" class="card-img-top" alt="Paisaje">
+        <div class="card-body">
+          <h5 class="card-title">What Is Licensed Content and How Does It Help Your Business Grow?</h5>
+          <p class="card-text">TL;DR: Licensed content, sometimes called syndicated content, is content produced by a professional publisher </p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
 
     <section class="topics">
         <article class="topics-art">
@@ -218,6 +318,22 @@
     </section>
 
     <footer></footer>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous">
+    </script>
 
 </body>
 
