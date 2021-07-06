@@ -259,10 +259,20 @@ float: left;
     height: 50px;
 }
 
+.bck-cards {
+    background-color: #a1d683;
+    padding: 30px;
+}
+
 .card1 {
     display: inline-block;
-    margin-bottom: 90px;
-    margin-left: 220px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 210px;
+}
+
+.card-img-top {
+    max-height: 250px;
 }
 
 .topics {
