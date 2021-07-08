@@ -377,7 +377,7 @@ float: left;
     color: #444;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 580px;
+    height: auto;
     margin-bottom: 50px;
   }
 
@@ -514,7 +514,13 @@ float: left;
 }
 /** dispositivos grandes (desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
+    .columns {
+        height: 580px;
+    }
 }
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {
+    .columns {
+        height: 580px;
+    }
 }
